@@ -13,6 +13,9 @@
     "@google/generative-ai": "^0.24.1",
     "@supabase/supabase-js": "^2.106.2",
     "@tailwindcss/postcss": "^4",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
     "jspdf": "^4.2.1",
     "jspdf-autotable": "^5.0.8",
     "lucide-react": "^1.17.0",
@@ -20,16 +23,13 @@
     "react": "19.2.4",
     "react-dom": "19.2.4",
     "react-markdown": "^10.1.0",
-    "tailwindcss": "^4"
+    "tailwindcss": "^4",
+    "typescript": "^5"
   },
   "devDependencies": {
-    "@types/node": "^20",
-    "@types/react": "^19",
-    "@types/react-dom": "^19",
     "caniuse-lite": "^1.0.30001793",
     "eslint": "^9",
-    "eslint-config-next": "16.2.6",
-    "typescript": "^5"
+    "eslint-config-next": "16.2.6"
   },
   "optionalDependencies": {
     "lightningcss-linux-x64-gnu": "1.32.0",
