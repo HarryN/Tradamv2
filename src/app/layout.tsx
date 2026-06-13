@@ -8,6 +8,20 @@ import MobileTabBar from '@/components/MobileTabBar';
 export const metadata: Metadata = {
   title: "Tradam | Cameroon Multi-Vendor E-Commerce Platform",
   description: "Discover and purchase quality products from local sellers in Cameroon, powered by Tradam.",
+  themeColor: "#ffffff",
+  icons: {
+    icon: "/favicon.ico",
+    shortcut: "/favicon-32x32.png",
+    apple: "/apple-touch-icon.png",
+    other: [
+      {
+        rel: "icon",
+        url: "/favicon-16x16.png",
+        sizes: "16x16",
+      },
+    ],
+  },
+  manifest: "/site.webmanifest",
 };
 
 export default function RootLayout({
