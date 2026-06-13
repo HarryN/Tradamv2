@@ -158,7 +158,7 @@ function runPythonClusterAssignments(
   interactions: any[]
 ): Map<string, number> {
   const pythonBinary = process.env.PYTHON || 'python';
-  const scriptPath = path.join(/*turbopackIgnore: true*/ process.cwd(), 'python', 'recommendation_cluster.py');
+  const scriptPath = path.join(/*@turbopack-ignore*/ process.cwd(), 'python', 'recommendation_cluster.py');
   const payload = {
     products: products.map((product) => ({
       id: product.id,
